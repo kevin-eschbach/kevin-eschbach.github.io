@@ -7,7 +7,7 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         }
     })
-})
+});
 
 document.addEventListener('DOMContentLoaded', function(event){
     var textData = ["Student", "Social Democrat", "Software Developer"];
