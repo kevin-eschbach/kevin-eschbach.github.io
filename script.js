@@ -9,7 +9,7 @@ $(document).ready(function(){
     })
 });
 
-document.addEventListener('DOMContentLoaded', function(event){
+$(document).addEventListener('DOMContentLoaded', function(event){
     var textData = ["Student", "Social Democrat", "Software Developer"];
 
     function typewriter(text, i, fncCallback){
