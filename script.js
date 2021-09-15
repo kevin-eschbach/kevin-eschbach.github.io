@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(window).scroll(function(){
+    window.scroll(function(){
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
             console.log("Hello");
@@ -7,9 +7,6 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         }
     })
-});
-
-$(document).addEventListener('DOMContentLoaded', function(event){
     var textData = ["Student", "Social Democrat", "Software Developer"];
 
     function typewriter(text, i, fncCallback){
@@ -36,5 +33,5 @@ $(document).addEventListener('DOMContentLoaded', function(event){
         }
     }
 
-    startTextAnimation(0)
-});
+    startTextAnimation(0);
+})
