@@ -93,3 +93,11 @@
 .home .home-content{
     font-size: 27px;
 }
+
+.home .home-content .I-am{
+    font-size: 35px;
+}
+
+.home .home-content .I-am span{
+    color: cadetblue;
+}
