@@ -1,0 +1,8 @@
+title: "Kevin Eschbach"
+description: "Kevin Eschbach's personal blog"
+url: "https://kevin-eschbach.de"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

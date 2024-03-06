@@ -1,0 +1,12 @@
+<footer>
+    <p>© 2024 Kevin Eschbach</p>
+    <ul>
+        {% for entry in site.data.socials %}
+        <li>
+            <a href="{{ entry.url }}" title="{{ entry.title }}" target="_blank" rel="noopener noreferrer">
+                {{ entry.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</footer>
